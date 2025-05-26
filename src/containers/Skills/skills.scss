@@ -1,0 +1,19 @@
+.skills {
+    padding: 30px 0px;
+    background-color: #e5e7eb;
+    overflow: hidden;
+
+
+    &__content {
+        display: flex;
+        align-items: center;
+
+        gap: 20px;
+
+        img {
+            width: 80px;
+            object-fit: contain;
+        }
+    }
+
+}
