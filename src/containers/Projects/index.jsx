@@ -30,7 +30,8 @@ const Projects = () => {
             {data?.map((item, index) => {
                 return(
                     <SwiperSlide key={index}>
-                        <motion.div className="projects__list__item"
+                        <a href={item.link} target="_blank" rel="noopener noreferrer">
+                          <motion.div className="projects__list__item"
                         // initial={{ opacity: 0, y: 30 }}
                         // whileInView={{ opacity: 1, y: 0 }}
                         // transition={{ duration: 0.5, ease: 'easeOut', delay: index * 0.5 }}
@@ -38,7 +39,7 @@ const Projects = () => {
                             <img src={item.image} />
                             <h5>{item.name}</h5>
                             <p>{item.description}</p>
-                        </motion.div>
+                        </motion.div></a>
                     </SwiperSlide>
                 )
             })}
