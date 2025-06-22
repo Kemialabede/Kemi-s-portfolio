@@ -26,7 +26,7 @@ const Loader = () => {
           style={{
             width: '10px', // Width of each vertical bar
             height: '0%', // Start height at 0
-            background: 'linear-gradient(135deg, #4caf50, #2196f3)', // Customize gradient
+            background: 'linear-gradient(135deg,rgb(200, 194, 35),rgb(18, 19, 19))', // Customize gradient
             borderRadius: '5px',
           }}
           initial={{ height: '0%', opacity: 0 }}
