@@ -26,7 +26,7 @@ const About = () => {
               whileInView={{ opacity: 1, scale: 1 }} 
               transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}
               viewport={{ once: false, amount: 0.2 }}
-            >I'm a results-driven Software Engineer with 4+ years of experience building secure, scalable, and high-performing web applications. I specialize in crafting enterprise-grade products and clean, intuitive user interfaces that deliver real business value.
+            >I'm a results-driven Software Engineer with 5 years of experience building secure, scalable, and high-performing web applications. I specialize in crafting enterprise-grade products and clean, intuitive user interfaces that deliver real business value.
             <br />
 
             With a strong focus on performance, maintainability, and design, I bring both technical depth and product-thinking to every project. I care deeply about creating meaningful digital experiences that are as delightful as they are robust.
