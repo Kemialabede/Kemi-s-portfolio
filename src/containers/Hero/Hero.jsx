@@ -22,7 +22,7 @@ const Hero = () => {
           <div className="hero-buttons">
             <a href="#projects" className="btn primary">View Projects</a>
             <a href="#contact" className="btn outline">Contact Me</a>
-            <a href="#contact" className="btn yellow_outline">Download CV</a>
+            <a href="/Oluwakemi Alabede CV.pdf" download className="btn yellow_outline">Download CV</a>
           </div>
         </div>
     </section>

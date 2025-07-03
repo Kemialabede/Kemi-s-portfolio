@@ -10,6 +10,10 @@
 
     @media (max-width: 890px) {
         padding: 30px;
+        background-size: cover; // This will prevent the repetition
+        background-position: center top;
+        animation: none;
+
     }
 
 
@@ -141,7 +145,7 @@
 
 
     // Responsive styles
-    @media (max-width: 768px) {
+    @media (max-width: 760px) {
         .hero-title {
             font-size: 2.5rem;
         }
@@ -156,6 +160,14 @@
 
         .hero-buttons {
             flex-direction: column;
+            gap: 15px;
+            display: none;
+        }
+    }
+
+    @media (min-width: 768px) {
+
+        .hero-buttons {
             gap: 15px;
         }
     }
@@ -172,6 +184,7 @@
         .hero-buttons {
             flex-direction: column;
             gap: 10px;
+            display: none;
         }
     }
 }
